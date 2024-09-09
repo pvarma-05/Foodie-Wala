@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #ff6600;
+    --bg-light: #ffffff;
+    --bg-dark: #1e1e1e;
+    --text-light: #000000;
+    --text-dark: #ffffff;
+    --input-border-light: #ccc;
+    --input-border-dark: #555;
+    --button-hover-light: #e65c00;
+    --button-hover-dark: #cc5200;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background-color 0.5s, color 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-toggle button {
+    background: var(--primary-color);
+    border: none;
+    color: var(--text-light);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.theme-toggle button:hover {
+    background: var(--button-hover-light);
+} */
+
+.logo {
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: var(--bg-light);
+    color: var(--text-light);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.75em;
+    color: var(--text-light);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: var(--text-light);
+}
+
+.input-group input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid var(--input-border-light);
+    border-radius: 5px;
+    background: var(--bg-light);
+    color: var(--text-light);
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+button {
+    background: var(--primary-color);
+    border: none;
+    color: var(--text-light);
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: var(--button-hover-light);
+}
+
+p {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+p a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .dark-theme {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-theme .login-box {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-theme .input-group input {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border: 1px solid var(--input-border-dark);
+}
+
+.dark-theme button {
+    background: var(--primary-color);
+    color: var(--text-dark);
+}
+
+.dark-theme button:hover {
+    background: var(--button-hover-dark);
+} */
